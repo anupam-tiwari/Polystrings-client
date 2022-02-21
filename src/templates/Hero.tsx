@@ -12,26 +12,28 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            <a>Print</a>
+          <Link href="https://forms.gle/EaJ55ApWe9zYG5nPA">
+            <a target="_blank">Print</a>
           </Link>
         </li>
       </NavbarTwoColumns>
     </Section>
-
-    <Section yPadding="pt-20 pb-32">
+    <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <img src="printer.png" width={'750px'} height={'750px'}></img>
+    </div>
+    <Section yPadding="pt-2 pb-32">
       <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developers</span>
+            {'Turn your\n'}
+            <span className="text-primary-500">Imagination to Reality</span>
           </>
         }
-        description="The easiest way to build a React landing page in seconds."
+        description="The easy way to 3D print."
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
-            <a>
-              <Button xl>Download Your Free Theme</Button>
+          <Link href="https://forms.gle/EaJ55ApWe9zYG5nPA">
+            <a target="_blank">
+              <Button xl>Get Your First Print For Free</Button>
             </a>
           </Link>
         }
