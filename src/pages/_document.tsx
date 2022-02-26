@@ -7,7 +7,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang={AppConfig.locale}>
-        <Head />
+        <Head>
+          <link rel="shortcut icon" href="/public/logo-black.png" />
+        </Head>
         <body>
           <Main />
           <NextScript />

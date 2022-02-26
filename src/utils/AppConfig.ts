@@ -1,6 +1,6 @@
 export const AppConfig = {
   site_name: 'Polystrings',
   title: 'Polystrings',
-  description: 'Starter code for your Nextjs Boilerplate with Tailwind CSS',
+  description: 'Print your imagination with Polystrings',
   locale: 'en',
 };

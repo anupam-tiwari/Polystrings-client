@@ -8,7 +8,7 @@ const Banner = () => (
   <Section>
     <CTABanner
       title="What are you waiting for."
-      subtitle="Redeem your Free Print."
+      subtitle="Redeem your Free Delivery."
       button={
         <Link href="https://forms.gle/EaJ55ApWe9zYG5nPA">
           <a>

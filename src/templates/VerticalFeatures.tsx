@@ -3,12 +3,12 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Trusted by +500 customers"
+    title="Trusted by 500+ customers"
     description="We believe in quality and trust."
   >
     <VerticalFeatureRow
       title="Competitive Rates"
-      description="Best rates than our competitiors."
+      description="The best rates than our competitiors."
       image="/assets/images/feature.svg"
       imageAlt="First feature alt text"
     />
