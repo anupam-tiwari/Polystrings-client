@@ -15,8 +15,8 @@ const Logo = (props: ILogoProps) => {
       {/* <svg
         className="text-primary-500 stroke-current mr-1"
         xmlns="http://www.w3.org/2000/svg"
-        width={size}
-        height={size}
+        width={10}
+        height={10}
         viewBox="0 0 24 24"
         strokeWidth="1.5"
         fill="none"

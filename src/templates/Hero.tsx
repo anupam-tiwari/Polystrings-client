@@ -49,7 +49,7 @@ const Hero = () => (
         title={
           <>
             {'Turn your\n'}
-            <span className="text-primary-500">Imagination into Reality</span>
+            <span className="text-primary-500">Imagination To Reality</span>
           </>
         }
         description="The easy way to 3D print."
